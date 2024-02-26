@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Set the title of the webpage -->
+  <title>PersonalWebpagePart1</title>
+  <!-- Define the character set and viewport for better rendering on different devices -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Link to Font Awesome for icon usage -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Internal styling for the webpage -->
+  <style>
+    /* Styling for the body */
+    body {
+      font-family: "Cambria", sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    /* Styling for containers */
+    .w3-container {
+      margin-bottom: 16px;
+    }
+
+    /* Styling for cards */
+    .w3-card-4 {
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Styling for images within display containers */
+    .w3-display-container img {
+      border-radius: 8px 8px 0 0;
+      width: 100%;
+      height: auto;
+    }
+
+    /* Styling for text with teal color */
+    .w3-text-theme {
+      color: #009688;
+    }
+
+    /* Styling for light grey background */
+    .w3-light-grey {
+      background-color: #f4f4f4;
+    }
+
+    /* Styling for content margin */
+    .w3-content {
+      margin-top: 80px;
+    }
+
+    /* Styling for margin-top */
+    .w3-margin-top {
+      margin-top: 16px;
+    }
+
+    /* Styling for margin-bottom */
+    .w3-margin-bottom {
+      margin-bottom: 16px;
+    }
+
+    /* Styling for padding-16 */
+    .w3-padding-16 {
+      padding: 16px;
+    }
+
+    /* Styling for padding-24 */
+    .w3-padding-24 {
+      padding: 24px;
+    }
+
+    /* Styling for margin-top-64 */
+    .w3-margin-top-64 {
+      margin-top: 64px;
+    }
+
+    /* Styling for large border radius */
+    .w3-round-xlarge {
+      border-radius: 16px;
+    }
+
+    /* Styling for extra large text */
+    .w3-xxlarge {
+      font-size: 24px;
+    }
+
+    /* Styling for teal color */
+    .w3-teal {
+      color: #009688;
+      background-color: #009688;
+    }
+
+    /* Hover effect for opacity */
+    .w3-hover-opacity:hover {
+      opacity: 0.8;
+    }
+
+    /* Styling for center-aligned text */
+    .w3-center {
+      text-align: center;
+    }
+
+    /* Styling for row padding with negative margins */
+    .w3-row-padding {
+      margin: 0 -16px;
+    }
+
+    /* Styling for one-third and two-thirds width, box-sizing */
+    .w3-third,
+    .w3-twothird {
+      box-sizing: border-box;
+    }
+
+    /* Styling for one-third width */
+    .w3-third {
+      width: 32%;
+      float: left;
+      padding: 16px;
+      background-color: #fff;
+      border-radius: 8px;
+      margin-right: 16px;
+      margin-bottom: 16px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    /* Hover effect for one-third width */
+    .w3-third:hover {
+      transform: scale(1.03);
+    }
+
+    /* Styling for two-thirds width */
+    .w3-twothird {
+      width: 65%;
+      float: left;
+      padding: 16px;
+      background-color: #fff;
+      border-radius: 8px;
+      margin-bottom: 16px;
+    }
+
+    /* Styling for heading 2 within two-thirds width with bottom border */
+    .w3-twothird h2 {
+      border-bottom: 2px solid #009688;
+      padding-bottom: 8px;
+    }
+
+    /* Styling for paragraph within one-third width with line height */
+    .w3-third p {
+      line-height: 1.6;
+    }
+
+    /* Styling for heading 5 within one-third width and heading 2 within two-thirds width with line after */
+    .w3-third h5,
+    .w3-twothird h2 {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Line after styling for heading 5 and heading 2 */
+    .w3-third h5::after,
+    .w3-twothird h2::after {
+      content: "";
+      display: block;
+      height: 2px;
+      width: 100%;
+      background-color: #009688;
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+    }
+
+    /* Media query for responsiveness */
+    @media (max-width: 768px) {
+      .w3-third,
+      .w3-twothird {
+        width: 100%;
+        float: none;
+      }
+    }
+  </style>
+</head>
+
+<body class="w3-light-grey">
+
+  <!-- Page Container -->
+  <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+
+      <!-- Left Column -->
+      <div class="w3-third">
+
+        <div class="w3-white w3-text-grey w3-card-4">
+          <!-- Display container for avatar image and name -->
+          <div class="w3-display-container">
+            <img src="C:\Users\PC\Downloads\IMG_20240224_121436_999.jpg" style="width:100%" alt="Avatar">
+            <div class="w3-display-bottomleft w3-container w3-text-white">
+              <h2>Patrick John S. Brucal</h2>
+            </div>
+          </div>
+          <!-- Container for personal information -->
+          <div class="w3-container">
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Brgy. Santa Veronica, San Pablo
+              City, Laguna</p>
+            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>brucaltattet@gmail.com</p>
+            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>09977114098</p>
+            <hr>
+
+            <!-- Skills section -->
+            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+            <p>Communication Skills</p>
+            <!-- Skill progress bar -->
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+            </div>
+            <p>Management skills</p>
+            <!-- Skill progress bar with text -->
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+                <div class="w3-center w3-text-white">80%</div>
+              </div>
+            </div>
+            <!-- Similar structure for other skills -->
+            <p>Time management skills</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+            </div>
+            <p>Video Editing</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+            </div>
+            <br>
+
+            <!-- Languages section -->
+            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+            <p>Tagalog</p>
+            <!-- Language proficiency bars -->
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+            </div>
+            <!-- Similar structure for other languages -->
+            <p>English</p>
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+            </div>
+            <p>Nihongo</p>
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+            </div>
+            <br>
+          </div>
+        </div><br>
+
+        <!-- End Left Column -->
+      </div>
+
+      <!-- Right Column -->
+      <div class="w3-twothird">
+
+        <!-- Work Experience Section -->
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i><span>Work Experience</span></h2>
+          <!-- Construction Worker Experience -->
+          <div class="w3-container">
+            <h5 class="w3-opacity"><i class="fa fa-briefcase fa-fw w3-margin-right"></i><b>Construction Worker</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 2021 - 2022 <span
+                class="w3-tag w3-teal w3-round"></span></h6>
+            <!-- Description of Construction Worker experience -->
+            <p> 
+              During my senior high school year, I chose to work as a construction worker in our barangay, driven by the pressing need for additional income to support my family's basic needs. Despite the physically demanding and modest nature of the job, it provided a valuable opportunity to gain practical knowledge and develop a sense of self-sufficiency. Beyond the financial aspect, the experience taught me the importance of hard work, resilience, and the intricacies of manual labor. Each day on the construction site became a lesson in both skill development and a deeper understanding of the dynamics of community life. This decision, though initially motivated by economic necessity, evolved into a transformative journey that instilled in me a stronger work ethic and a profound sense of empowerment for a more independent future.</p>
+            <hr>
+          </div>
+          <!-- Script Writer Experience -->
+          <div class="w3-container">
+            <h5 class="w3-opacity"><i class="fa fa-briefcase fa-fw w3-margin-right"></i><b>Script Writer </b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2022</h6>
+            <!-- Description of Script Writer experience -->
+            <p> I was dabbling in the whole scriptwriting scene, trying out different things to figure out my sweet spot. To get good at this, I started devouring novels, Manga, and whatever else I could get my hands on. The more I read, the more confident I became. And you know what? I decided to dive into the horror theme for a short film. It just seemed like a wild ride, and I wanted to see if I could pull it off. Turns out, I could! It's crazy how reading all those spooky stories actually helped me write a decent horror script. Now, I'm just rolling with the punches, exploring different genres, and trying to make my mark in the scriptwriting world.</p>
+            <!-- Link to watch the scriptwriter's work -->
+            <p><a href="https://fb.watch/qpovZK3kpt/" target="_blank">Watch my work here!</a></p>
+            <hr>
+          </div>
+        </div>
+
+        <!-- Educational Section -->
+        <div class="w3-container w3-card w3-white">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-book fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i><span>Educational</span></h2>
+          <!-- College Education -->
+          <div class="w3-container">
+            <h5 class="w3-opacity"><i class="fa fa-university fa-fw w3-margin-right"></i><b>College</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2023 - Present</h6>
+            <p>Laguna state polytechnic university, Cosico Ave, San Pablo City, 4000 Laguna </p>
+            <hr>
+          </div>
+          <!-- Senior High Education -->
+          <div class="w3-container">
+            <h5 class="w3-opacity"><i class="fa fa-graduation-cap fa-fw w3-margin-right"></i><b>Senior High</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 - 2022</h6>
+            <p>Col. Lauro D. Dizon memorial integrated high school, Mabini Street, VI-A, San Pablo City, Laguna.</p>
+            <hr>
+          </div>
+          <!-- High School Education -->
+          <div class="w3-container">
+            <h5 class="w3-opacity"><i class="fa fa-graduation-cap fa-fw w3-margin-right"></i><b>High School</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2020</h6>
+            <p>San Pablo Christian school, Schetelig Av, San Pablo City </p><br>
+          </div>
+          <!-- Elementary Education -->
+          <div class="w3-container">
+            <h5 class="w3-opacity"><i class="fa fa-graduation-cap fa-fw w3-margin-right"></i><b>Elementary</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2011 - 2016</h6>
+            <p>A. Mabini Street, V - A, San Pablo City, </p><br>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Grid -->
+    </div>
+
+    <!-- End Page Container -->
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="w3-container w3-teal w3-center w3-margin-top">
+      <!-- Social media icons -->
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+  </footer>
+
+</body>
+
+</html>
